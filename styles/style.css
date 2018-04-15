@@ -1,0 +1,40 @@
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  color: #FF0000;
+  font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.header {
+  font-size: 4em;
+  padding: 15px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex: 1 0 auto;
+  margin-top: 100px;
+}
+
+.flames {
+  display: flex;
+  flex-shrink: 0;
+  margin-top: auto;
+}
+
+@media (min-width: 1000px) {
+  .main {
+    font-size: 3em;
+  }
+}
