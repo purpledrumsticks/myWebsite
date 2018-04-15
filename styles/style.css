@@ -22,7 +22,8 @@ a:visited {
 
 .header {
   font-size: 4em;
-  padding: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .main {
