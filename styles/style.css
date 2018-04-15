@@ -50,13 +50,18 @@ a:visited {
 
 .links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.links p {
+  font-size: 2em;
+}
+
 .links img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: 10px 110px;
   cursor: pointer;
 }
@@ -72,6 +77,15 @@ a:visited {
 }
 
 @media (min-width: 1000px) {
+  .links {
+    flex-direction: row;
+  }
+
+  .links img {
+    width: 100px;
+    height: 100px;
+  }
+
   .header {
     font-size: 6em;
   }
