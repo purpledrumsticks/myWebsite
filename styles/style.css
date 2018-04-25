@@ -48,6 +48,10 @@ a:visited {
   min-width: 50vw;
 }
 
+.topLinks {
+  margin-top: 50px;
+}
+
 .links {
   display: flex;
   flex-direction: column;
