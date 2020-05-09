@@ -1,0 +1,9 @@
+Fireup VirtualEnv: source env/bin/activate
+Shutdown VirtualEnv: deactivate
+
+Fireup Blog Server: python manage.py runserver
+
+Administration Portion of site: /admin
+
+Username: inigo
+Password: Hflipsoppositeof420
